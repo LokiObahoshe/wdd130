@@ -3,13 +3,13 @@
 :root {
     --primary-color: #87CBAC;
     --secondary-color: #0B3142;
-    --accent-color1: #0F5257;
-    --accent-color2: #8AC4FF;
+    --accent1-color: #0F5257;
+    --accent2-color: #8AC4FF;
     --heading-font: 'Rock Salt', serif;
     --paragraph-font: sans-serif, serif;
     --nav-background-color: 0;
     --nav-link-color: 0;
-    --nav-hover-color: 0;
+    --nav-hover-link-color: 0;
     --nav-hover-background-color: 0;
 
 }
@@ -22,12 +22,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent-color1)
+    background-color: var(--accent1-color);
 }
 
 p {
@@ -52,6 +52,6 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-    color: var(--nav-hover-color);
+    color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
