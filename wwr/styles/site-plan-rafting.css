@@ -7,10 +7,10 @@
     --accent2-color: #8AC4FF;
     --heading-font: 'Rock Salt', serif;
     --paragraph-font: sans-serif, serif;
-    --nav-background-color: 0;
-    --nav-link-color: 0;
-    --nav-hover-link-color: 0;
-    --nav-hover-background-color: 0;
+    --nav-background-color: #87CBAC;;
+    --nav-link-color: #0B3142;
+    --nav-hover-link-color: #0F5257;
+    --nav-hover-background-color: #8AC4FF;
 
 }
 
