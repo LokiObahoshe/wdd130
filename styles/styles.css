@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -34,6 +36,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #eee;
@@ -43,8 +46,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 707px;;
-    left: 129px;
+    top: 21px;;
+    left: 105px;
 }
 
 aside img {
