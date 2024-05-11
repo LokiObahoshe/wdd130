@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swapp');
+
+:root {
+    --primary-color: #87CBAC;
+    --secondary-color: #0B3142;
+    --accent1-color: #0F5257;
+    --accent2-color: #8AC4FF;
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Ubuntu Sans Mono', monospace;
+    --nav-background-color: #87CBAC;
+    --nav-link-color: #0B3142;
+    --nav-hover-link-color: #0F5257;
+    --nav-hover-background-color: #8AC4FF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav {
+    font-size: 1.2rem;
+    display: flex;
+    background-color: var(--nav-background-color);
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+p {
+    font-family: var(--paragraph-font)
+}
+
+section img {
+    display: block;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 60px;
+    right: 600px;
+    z-index: 99;
+    color: var(--nav-link-color);
+    background-color: rgba(123, 234, 171, 0.9);
+}
+
+article img {
+    float: right;
+    padding: 20px;
+    max-width: 160px;
+}
+
+article {
+    position: absolute;
+    top: 180px;
+    right: 440px;
+    background-color: var(--nav-background-color);
+    opacity: 0.98;
+}
+
+article p {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.sociallinks a {
+    text-decoration: none;
+}
