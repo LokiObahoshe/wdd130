@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #ff8b3d;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -13,8 +13,12 @@ nav {
     margin-bottom: 10px;
 }
 
+a {
+    color: #301300;
+}
+
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 0.5rem;
     text-decoration: none;
@@ -23,13 +27,13 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: #853500;
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #301300;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -56,7 +60,7 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 21px;;
+    top: 21px;
     left: 105px;
 }
 
@@ -95,7 +99,7 @@ header, .grid, footer {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: lightblue;
+    background-color: #ff9d5c;
     color: #000;
 }
 
