@@ -1,0 +1,92 @@
+:root {
+    --nav-background-color: #87CBAC;
+    --nav-link-color: #0B3142;
+    --nav-hover-link-color: #0F5257;
+    --nav-hover-background-color: #8AC4FF;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+label, input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 0;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+label {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px;
+}
+
+form  {
+    align-items: center;
+}
+
+.center {
+    display: block;
+}
