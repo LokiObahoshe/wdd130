@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | Gravity Adventures</title>
+        <meta name="description" content="A rafting plan website which includes information for the Contact Us page.">
+        <meta name="author" content="Rebecca Sonderegger">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div class="entirecenter">
+                <img src="images/contactwireframe.png" alt="wireframe" hidden>
+                <form>
+                    <fieldset>
+                        <h2 class="contactheading">Company Information:</h2>
+                        <p>Address: 240 E 8th Ave, Durango, CO 81301</p>
+                        <p>Phone number: 1-999-999-9999</p>
+                        <p>Email: gravityadventuresofficial@aol.com</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101598.52671276724!2d-107.94976063896374!3d37.27251884454661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873c02a6bd85fc23%3A0xdc2b8882a3a67e5a!2sDurango%2C%20CO!5e0!3m2!1sen!2sus!4v1716568101092!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h2 class="contactheading">Our Employees!</h2>
+                        <div class="contactimages">
+                            <figure>
+                                <img src="images/profile1.jpg" alt="profile1">
+                                <figcaption class="figcaptioncontact">John</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/profile2.jpg" alt="profile2">
+                                <figcaption class="figcaptioncontact">Andrew</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/profile3.jpg" alt="profile3">
+                                <figcaption class="figcaptioncontact">Sean</figcaption>
+                            </figure>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h2 class="contactheading">Contact Us</h2>
+                        <label>Username: <input  class="inputcontact" type="text" id="username" name="username"></label>
+                        <br>
+                        <label>Email: <input class="inputcontact" type="email" id="usermail" name="useremail"></label>
+                        <!-- <input type="radio" id="inquiry" name="reason" value="General Inquiry">
+                            <label for="reason">General Inquiry</label>
+                        <input type="radio" id="question" name="reason" value="Reservation Question">
+                            <label for="reason">Reservation Question</label>
+                        <input type="radio" id="suggestion" name="reason" value="Website Suggestion">
+                            <label for="reason">Website Suggestion</label> -->
+                        <br>
+                        <p>What is your reason for choosing to contact us?: </p>
+                        <label for="reason1">General Inquiry<input class="inputcontact" type="radio" id="reason1" name="reason" value="General Inquiry"></label>
+                        <label for="reason2">Reservation Question<input class="inputcontact" type="radio" id="reason2" name="reason" value="Reservation Question"></label>
+                        <label for="reason3">Website Suggestion<input class="inputcontact" type="radio" id="reason3" name="reason" value="Website Reservation"></label>
+                        <br>
+                        <br>
+                        <textarea id="feedback" name="feedback" rows="5" placeholder="Your feedback here..."></textarea>
+                        <br>
+                        <br>
+                        <label>Please subscribe me to the monthly newsletter<input class="inputcontact" type="checkbox" name="subscribe"></label>
+                        <br>
+                        <button type="submit">Submit Feedback</button>
+                        <br>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+            <footer>
+                <div class="contactsociallinks">
+                    <p class="contactsociallinks">©️2024 | Gravity Adventures | Rebecca Sonderegger | ‎<a href="https://drive.google.com/file/d/11e8TT6A8ROhixPEbtcx7jKyigPJUSyvm/view?usp=sharing">Wireframe Design</a></p>
+                    <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook" width="40"></a>
+                    <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter" width="40"></a>
+                    <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram" width="40"></a>
+            </div>
+        </footer>
+    </body>
+    </html>
