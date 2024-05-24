@@ -248,6 +248,12 @@ button:hover {
 
 .contactsociallinks a {
     text-decoration: none;
+    color: var(--secondary-color)
+}
+
+.contactsociallinks a:hover {
+    color: navy;
+    font-weight: 550;
 }
 
 .contactsociallinks {
@@ -263,7 +269,7 @@ button:hover {
 
 .contactsociallinks p {
     position: absolute;
-    left: 400px;
+    left: 300px;
 }
 
 .contactsociallinks img {
