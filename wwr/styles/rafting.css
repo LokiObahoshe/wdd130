@@ -11,6 +11,7 @@
     --nav-link-color: #0B3142;
     --nav-hover-link-color: #0F5257;
     --nav-hover-background-color: #8AC4FF;
+    --table-color: #87CBCC;
 }
 
 body {
@@ -306,4 +307,87 @@ button:hover {
 .figcaptioncontact {
     font-family: var(--paragraph-font);
     font-size: 20px;
+}
+
+
+/* Trips */
+
+table, th, td {
+    border:1px solid black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid hsla(0,0%,33%,.3);
+}
+
+th {
+	background-color: var(--primary-color);
+}
+
+td {
+	text-align: center;
+    background-color: var(--table-color)
+}
+
+#vertical-2 thead,#vertical-2 tbody{
+    display: inline-block;
+}
+
+/* Class Selectors (Trips) */
+
+.tripsbutton {
+    margin: 2rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 100%;
+    align-items: center;
+}
+
+.tripscenter {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.tripsbutton:hover {
+    background-color: var(--accent1-color);
+}
+
+.tripsfeatured {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+}
+
+.innertrip {
+    width: 85%;
+}
+
+.tripsfeatured img {
+    width: 400px;
+    height: auto;
+}
+
+.tripstable {
+    margin: 10px;
 }
